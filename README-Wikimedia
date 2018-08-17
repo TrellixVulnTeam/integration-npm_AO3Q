@@ -6,6 +6,7 @@ Setup:
 
 $ git remote add upstream https://github.com/npm/cli
 $ git fetch upstream
-$ git merge v6.4.0
+$ git merge v6.4.0 --squash
+$ git commit -m "Merge v6.4.0"
 $ make
-$ git commit -m "Updating to v6.4.0"
+$ git commit -m "Build 6.4.0"
