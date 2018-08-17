@@ -1,0 +1,11 @@
+integration/npm
+
+A mirror of npm for use in Wikimedia CI.
+
+Setup:
+
+$ git remote add upstream https://github.com/npm/cli
+$ git fetch upstream
+$ git merge v6.4.0
+$ make
+$ git commit -m "Updating to v6.4.0"
