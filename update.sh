@@ -22,7 +22,7 @@ mv package/.[!.]* package/* . && rmdir package/
 # Restore our files
 echo "$our_gitreview" > .gitreview
 echo "$our_readme" > README-Wikimedia
-echo "$our_script" > .update.sh
+echo "$our_script" > update.sh
 
 git add .
 git commit -m "Install $1
