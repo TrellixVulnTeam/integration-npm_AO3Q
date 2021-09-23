@@ -23,6 +23,7 @@ mv package/.[!.]* package/* . && rmdir package/
 echo "$our_gitreview" > .gitreview
 echo "$our_readme" > README-Wikimedia
 echo "$our_script" > update.sh
+chmod +x update.sh
 
 git add .
 git commit -m "Install $1
